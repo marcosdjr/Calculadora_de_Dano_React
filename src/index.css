@@ -1,0 +1,158 @@
+
+
+.calc_inicio {
+  font-weight: bold;
+  color:black;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 14px;
+  
+}
+.calc_dano{
+
+  color: black;
+}
+
+.borda_tela{
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+
+p { text-align: center;}
+
+.selecao{
+  color:black;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 14px;
+  flex-direction: column;
+}
+
+
+.selecao_arma {
+
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+
+
+
+.selecao_pers {
+
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+
+.selecao_perso {
+  border-radius: 15px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px;
+
+}
+.selecao_arma2 {
+  border-radius: 15px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.personagem_selecionado {
+
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 14px;
+  text-align: center;
+}
+
+.arma_selecionado {
+
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 14px;
+  text-align: center;
+}
+
+.arma{
+  
+  text-align: center;
+}
+
+.pers{
+
+  text-align: center;
+}
+
+.selElementoComBorda{
+  border-radius: 15px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.selElementoSemBorda{
+  
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.button_dano{
+background-color: blue;
+color: white;
+border-radius: 30px;
+font-weight: bold;
+border-radius: 90px;
+font-size: 16px;
+padding: 14px;
+margin: 50px;
+
+
+}
